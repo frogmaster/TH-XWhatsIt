@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:TH-XWhatsIt-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 3
 Title "Displaywriter plugboard to convert controller signals"
 Date "2020-01-31"
 Rev "0.0.2"
@@ -236,20 +235,82 @@ U 1 1 5E3A0C5C
 P 6775 4825
 F 0 "H4" H 6875 4874 50  0000 L CNN
 F 1 "GROUND STRAP" H 6875 4783 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 4825 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6775 4825 50  0001 C CNN
 F 3 "~" H 6775 4825 50  0001 C CNN
 	1    6775 4825
 	1    0    0    -1  
 $EndComp
+Text HLabel 6775 4925 3    50   UnSpc ~ 0
+DWGROUND
 $Comp
-L power:GNDA #PWR0153
-U 1 1 5E3A0C62
-P 6775 4925
-F 0 "#PWR0153" H 6775 4675 50  0001 C CNN
-F 1 "GNDA" H 6780 4752 50  0000 C CNN
-F 2 "" H 6775 4925 50  0001 C CNN
-F 3 "" H 6775 4925 50  0001 C CNN
-	1    6775 4925
+L Connector_Generic:Conn_01x30 J?
+U 1 1 5F79382C
+P 1625 2750
+AR Path="/5E97697F/5F79382C" Ref="J?"  Part="1" 
+AR Path="/5F79382C" Ref="J?"  Part="1" 
+AR Path="/5E9772A5/5F79382C" Ref="J?"  Part="1" 
+AR Path="/5E995B14/5F79382C" Ref="J3"  Part="1" 
+F 0 "J3" H 1705 2742 50  0000 L CNN
+F 1 "MODEL F PLUGBOARD CONNECTOR" H 1705 2651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x30_P2.54mm_Vertical" H 1625 2750 50  0001 C CNN
+F 3 "~" H 1625 2750 50  0001 C CNN
+	1    1625 2750
 	1    0    0    -1  
 $EndComp
+Text HLabel 1425 1550 0    50   Output ~ 0
+DWCOL1
+Text HLabel 1425 1650 0    50   Output ~ 0
+DWCOL2
+Text HLabel 1425 1750 0    50   Output ~ 0
+DWCOL3
+Text HLabel 1425 1850 0    50   Output ~ 0
+DWCOL4
+Text HLabel 1425 1950 0    50   Output ~ 0
+DWCOL5
+Text HLabel 1425 2050 0    50   Output ~ 0
+DWCOL6
+Text HLabel 1425 2150 0    50   Output ~ 0
+DWCOL7
+Text HLabel 1425 2250 0    50   Output ~ 0
+DWCOL8
+Text HLabel 1425 2350 0    50   Output ~ 0
+DWCOL9
+Text HLabel 1425 2450 0    50   Output ~ 0
+DWCOL10
+Text HLabel 1425 2550 0    50   Output ~ 0
+DWCOL11
+Text HLabel 1425 2650 0    50   Output ~ 0
+DWCOL12
+Text HLabel 1425 1350 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 1425 1450 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 1425 3150 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 1425 3250 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 1425 3350 0    50   BiDi ~ 0
+DWSENSE1
+Text HLabel 1425 3450 0    50   BiDi ~ 0
+DWSENSE2
+Text HLabel 1425 3550 0    50   BiDi ~ 0
+DWSENSE3
+Text HLabel 1425 3650 0    50   BiDi ~ 0
+DWSENSE4
+Text HLabel 1425 4050 0    50   BiDi ~ 0
+DWSENSE5
+Text HLabel 1425 3950 0    50   BiDi ~ 0
+DWSENSE6
+Text HLabel 1425 3850 0    50   BiDi ~ 0
+DWSENSE7
+Text HLabel 1425 3750 0    50   BiDi ~ 0
+DWSENSE8
+NoConn ~ 1425 2750
+NoConn ~ 1425 2850
+NoConn ~ 1425 2950
+NoConn ~ 1425 3050
+Text HLabel 1425 4150 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 1425 4250 0    50   UnSpc ~ 0
+DWGROUND
 $EndSCHEMATC
